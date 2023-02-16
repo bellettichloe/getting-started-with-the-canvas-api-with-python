@@ -5,7 +5,7 @@ import canvasapi
 dotenv.load_dotenv(dotenv.find_dotenv())
 
 TOKEN = os.environ.get('CANVAS_API_TOKEN')
-BASEURL = 'https://ubc.instructure.com'
+BASEURL = 'https://uc.instructure.com'
 
 canvas_api = canvasapi.Canvas(BASEURL, TOKEN)
 
